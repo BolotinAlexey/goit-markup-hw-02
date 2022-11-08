@@ -6,17 +6,16 @@
   --primary-white-color: #fff;
   --color-address-link: rgba(255, 255, 255, 0.6);
   --bgcolor-secondary: #2f303a;
+  --btn-active: #188ce8;
 }
-
 body {
-  background-color: var(--primary-white-color);
-  font: 14px/1.14 'Roboto', sans-serif;
+  font: 400 14px/1.14 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: var(--primary-white-color);
 }
 
-/* Header */
-/* .page-header {
-} */
+/* -----Header ----*/
 /* Navigation */
 /* list */
 .list {
@@ -63,18 +62,77 @@ body {
   color: var(--accent-color);
 }
 
-/* Main */
+/*------ Main------ */
+/* common styles */
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* poster */
+.poster {
+  background-color: var(--bgcolor-secondary);
+  text-align: center;
+}
+.poster-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--primary-white-color);
+}
 
-/* Footer */
+.poster-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.poster-btn:active {
+  background-color: var(--btn-active);
+}
+
+/* Features */
+.feature-header {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: uppercase;
+}
+.feature-description {
+  line-height: 1.71;
+  color: var(--secondary-color);
+}
+
+/* Doing */
+
+/* Team */
+.team {
+  line-height: 1.18;
+}
+.team-header {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.team-description {
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+/*------ Footer -------*/
 .footer {
-  width: 1600px;
-  height: 252px;
   background-color: var(--bgcolor-secondary);
 }
 /* logo */
 .footer-studio {
   color: var(--primary-white-color);
 }
+/* address */
 .address {
   line-height: 1.71;
   color: var(--primary-white-color);
