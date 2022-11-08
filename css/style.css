@@ -21,6 +21,10 @@ body {
   display: none;
 }
 
+.button {
+  cursor: pointer;
+}
+
 /* -----Header ----*/
 /* Navigation */
 /* list */
