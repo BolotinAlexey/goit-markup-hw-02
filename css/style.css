@@ -8,11 +8,17 @@
   --bgcolor-secondary: #2f303a;
   --btn-active: #188ce8;
 }
+
+/* common styles */
 body {
   font: 400 14px/1.14 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: var(--primary-white-color);
+}
+
+.display-none {
+  display: none;
 }
 
 /* -----Header ----*/
@@ -62,7 +68,7 @@ body {
   color: var(--accent-color);
 }
 
-/*------ Main------ */
+/*------ Main studio------ */
 /* common styles */
 .section-header {
   font-weight: 700;
@@ -124,6 +130,34 @@ body {
   color: var(--secondary-color);
 }
 
+/*------ Main portfolio -------*/
+
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--main-color);
+}
+.filters-btn:active,
+.filters-btn:hover,
+.filters-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--btn-active);
+}
+
+.filters-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filters-description {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-color);
+}
 /*------ Footer -------*/
 .footer {
   background-color: var(--bgcolor-secondary);
