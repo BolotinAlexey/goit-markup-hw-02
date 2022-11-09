@@ -23,14 +23,21 @@ body {
 
 .button {
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 /* -----Header ----*/
 /* Navigation */
-/* list */
-.list {
-  list-style: none;
-}
 
 /* logo */
 .logo {
@@ -43,14 +50,9 @@ body {
 }
 
 /* common links */
-.link {
-  text-decoration: none;
-}
 .site-nav-link,
 .contacts-nav-link {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
   letter-spacing: 0.02em;
 }
 
@@ -79,7 +81,7 @@ body {
 .section-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.36;
   text-align: center;
 }
 /* poster */
@@ -92,6 +94,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   color: var(--primary-white-color);
+  text-transform: uppercase;
 }
 
 .poster-btn {
@@ -174,11 +177,11 @@ body {
 }
 /* address */
 .address {
+  font-style: normal;
   line-height: 1.71;
   color: var(--primary-white-color);
 }
 
 .address-link {
-  line-height: 1.71;
   color: var(--color-address-link);
 }
